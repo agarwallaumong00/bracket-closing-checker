@@ -1,0 +1,16 @@
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disable {
+    pointer-events: none;
+    background: grey !important;
+}
